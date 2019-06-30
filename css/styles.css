@@ -1,11 +1,46 @@
+body{
+    font-family: 'Montserrat';
+
+}
 
 
-h1{
+
+h1, h2, h3, h4, h5,h6{
+    
+}
+h2{
+    font-size: 3rem;
+    line-height: 1.5;
+
+}
+
+#title{
+    background-color: #ff4c68;
+    color:white;
+
+}
+
+/* title imeag */
+
+.title-image{
+    position: absolute;
+    right: 30%;
+    width: 60%;
+    transform:rotate(25deg);
+}
+
+/* headings */
+.big-heading{
     font-family: 'Montserrat';
     font-weight: 900;
     font-size: 3.5rem;
     line-height: 1.5;
 }
+
+
+
+
+
 
 .container-fluid{
     padding: 3% 15% 7%;
@@ -15,10 +50,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
 */
 
-body{
-    font-family: 'Montserrat';
 
-}
 
 /* Navigation Bar */
 .navbar{
@@ -44,14 +76,7 @@ body{
     margin:5% 3% 5% 0;
 }
 
-/* title imeag */
 
-.title-image{
-    position: absolute;
-    right: 30%;
-    width: 60%;
-    transform:rotate(25deg);
-}
 
 .ft1{
     margin-top: 8rem;
@@ -63,11 +88,7 @@ body{
     margin-bottom: 2rem;
     color: #ef8172;
 }
-#title{
-    background-color: #ff4c68;
-    color:white;
 
-}
 
 #features{
     position: relative;
@@ -123,12 +144,6 @@ body{
 
 
 
-h2{
-    font-family:"Montserrat-Bold";
-    font-size: 3rem;
-    line-height: 1.5;
-
-}
 
 .testimonial-image{
     width: 10%;
